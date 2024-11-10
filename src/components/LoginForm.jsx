@@ -2,7 +2,7 @@ import React from "react";
 const LoginForm = () => {
   return (
     <>
-      <div className="m-[2rem] max-h-screen">
+      <div className="m-[2rem] max-h-screen overflow-hidden">
         <div className="flex w-full">
           <div className="flex flex-1 flex-col justify-center items-center">
             <div className="text-left">
