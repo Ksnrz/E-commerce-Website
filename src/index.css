@@ -8,3 +8,10 @@
 body {
   margin: 0 auto;
 }
+.login-img {
+  background-image: url("./img/paint-login.png");
+  width: 100%;
+  height: 100%;
+  background-size: cover; /* Ensures the image covers the entire area */
+  background-position: center;
+}
