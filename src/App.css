@@ -1,0 +1,26 @@
+#root {
+  margin: 0 auto;
+  font-family: "Mitr", sans-serif;
+  font-weight: 300; /* Lighter weight */
+}
+/* Apply a lighter weight to headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500; /* Lighter weight for headings */
+}
+
+/* Apply normal weight for paragraphs and text */
+p,
+span,
+div,
+li {
+  font-weight: 400; /* Regular weight */
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
