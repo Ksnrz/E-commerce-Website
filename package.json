@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "dev": "npm run start",
     "start:backend": "node backend/index.js",
     "start:frontend": "vite",
     "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\""
